@@ -1,8 +1,12 @@
 import React from 'react'
+import Homes from './Homes'
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <div>
+
+      <Homes/>
+    </div>
   )
 }
 
