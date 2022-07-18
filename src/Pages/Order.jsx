@@ -54,7 +54,7 @@ const[data,setData] = useState([])
             </section><br />
             
 
-           <button>Order</button>
+           <button style={{borderRadius:'50%',width:'40%'}}>Order</button>
         </form>
     </div>
     </div>

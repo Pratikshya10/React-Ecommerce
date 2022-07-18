@@ -5,15 +5,15 @@ import '../Components/css/Card.css'
 const Homes = () => {
     return (
         <div>
-
             <section className='cards__container'>{
-                products.details.map((v) => {
+                products.details.map((value) => {
                     return (
                         <div>
-                            <Card name={v.name}
-                                Img={v.imageURL}
-                                price={v.price} 
-                                id={v.productId}/>
+                            <Card name={value.name}
+                                Img={value.imageURL}
+                                price={value.price} 
+                                id={value.productId}
+                                description={value.description}/>
                         </div>
                     )
                 })

@@ -3,8 +3,8 @@ import { useLocation } from 'react-router-dom'
 import "./Extra/CardDot.css";
 
 const CardDetails = () => {
-    const location =useLocation();
-    const {name,Img,price} =location.state;
+    const location = useLocation();
+    const { name, Img, price, description } = location.state;
     return (
         <div>
             <div className='single_top'>
@@ -15,19 +15,13 @@ const CardDetails = () => {
                     <div className='card_details_right'>
                         <h3>{name}</h3>
                         <p>{price}</p>
+                        <p>{description}</p>
                         <div>
-
                             <a href="/order"><button >Buy Now</button>  </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
     )
 }
