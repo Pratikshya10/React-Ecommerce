@@ -3,7 +3,7 @@
 <hr>
 
 ### Ecommerce Web-app
-
+## Deploy in Netlify-https://pratikshya-react-ecommerce.netlify.app/
 The goal of this assignment is to build a prototype Ecommerce website(React.js) / App(React Native).
 This is just for reference you can make your own design with all these features. 
 
