@@ -32,7 +32,7 @@ const[data,setData] = useState([])
   
     <div>
       <div className='product__order'>
-        <h1>Place Our Order</h1><br />
+        <h1>Place Your Order</h1>
         <hr />
         <div className='login__page'>
         <form action="" onClick={handleSubmit} >
@@ -52,9 +52,8 @@ const[data,setData] = useState([])
             <section>
                 <input type="text" name="email" id="" value={Userdata.email} onChange ={inputChange} placeholder = "Email"/>
             </section><br />
-            
-
-           <button style={{borderRadius:'50%',width:'40%'}}>Order</button>
+            <hr />
+           <button className='button'>Buy Now</button>
         </form>
     </div>
     </div>

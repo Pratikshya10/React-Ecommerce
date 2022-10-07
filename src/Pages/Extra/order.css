@@ -1,8 +1,21 @@
 .product__order{
-    width: 25vw;
+    width: 24vw;
     text-align: center;
-    border: 2px solid red;
+    border: 20px solid gray;
     margin: auto;
     margin-top: 60px;
-    height: 50vh;
+    height: 65vh;
+}
+.button{
+    background-color: rgb(234, 158, 171);
+    width: 50%;
+    padding: 15px;
+}
+.login__page{
+    margin: 20px;    
+}
+input{
+    border-radius: 50px;
+    width: 80%;
+    padding: 10px;
 }

@@ -12,7 +12,7 @@ const Navigation = () => {
             <li><Link to="/fav" style={{ textDecoration: 'none', color: 'black' }} >Favorites</Link> </li>
             <li><Link to="/order" style={{ textDecoration: 'none', color: 'black' }} >Order</Link> </li>
             <li><Link to="/contact" style={{ textDecoration: 'none', color: 'black' }} >Contact</Link> </li>
-            <li><Link to="/profile" style={{textDecoration:'none'}} >Profile</Link> </li>
+            <li className='profile'><Link to="/profile" style={{textDecoration:'none',fontSize:'20px',marginLeft:"30vw"}} >Profile</Link> </li>
           </ul>
         </div>
 

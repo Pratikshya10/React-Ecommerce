@@ -1,10 +1,25 @@
 .single__page{
     display: flex;
     align-items: center;
+    justify-content: center;
     width:99vw ;
-    border: 2px solid whitesmoke;
+    border: 2px solid red;
+    background-color: whitesmoke;
     height: 80vh;
-    gap:20%;
-    padding-left: 60px;
+    gap:10%;
+}
+.card_details_right{
+    margin-left: 30px;
+    width: 40%;
+}
+.card_details_left{
+    margin: 20px;
+}
+button{
+    background-color: gray;
+    width: 30%;
+}
+button:hover{
+    background-color: rgb(201, 93, 93);
 }
 

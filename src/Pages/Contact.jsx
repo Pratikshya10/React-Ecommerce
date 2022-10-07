@@ -28,7 +28,7 @@ const Contact = () => {
 
     <div>
       <div className='product__order'>
-        <h1>Any Query</h1><br />
+        <h1>Please Contact</h1><br />
         <hr />
         <div className='login__page'>
           <form action="" onClick={handleSubmit} >
@@ -43,7 +43,7 @@ const Contact = () => {
             <section>
               <input type="text" name="mobileNo" id="" value={Userdata.mobileNo} onChange={inputChange} placeholder="Phone" />
             </section><br /><br /><br />
-            <button style={{borderRadius:'50%',width:'30%'}}>Submit</button>
+            <button className='button'>Submit</button>
           </form>
         </div>
       </div>

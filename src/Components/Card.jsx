@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 const Card = (props) => {
-  const { Img, name, price, description, id } = props;
+  const { Img, name, price, discount, id } = props;
   
   return (
-    <NavLink state={{ Img: Img, name: name, price: price, description: description, id: id }} to={`/category/${id}`}>
+    <NavLink state={{ Img: Img, name: name, price: price, discount: discount, id: id }} to={`/category/${id}`}>
       <div className={id}  >
         <div className='product_card'>
           <div className='card__img'>

@@ -4,7 +4,7 @@
     padding: 10px 10%;
     justify-content: space-between;
     border: 2px solid whitesmoke;
-    background-color: rgb(153, 152, 154);
+    
 }
 .product_card{
     text-align: center;
@@ -12,8 +12,10 @@
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid #c0c1c1;
+    background-color: rgb(224, 219, 219);
     margin-bottom: 40px;
     border-radius: 15px;
+    padding: 10px;
 }
 .product_card h4, p{
     padding: 10px ;
@@ -21,15 +23,13 @@
 
 .product_card img{
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-   
+    border-top-right-radius: 15px;   
 }
 .card__img{
-    margin: 50px;
-    width: 250px;
-    height: 200px;
-    
+    margin: 10px;
+    /* width: 250px; */
+    height: 200px;   
 }
 .card__img img{
-    width: 80%;
+    width: 60%;
 }
